@@ -1,3 +1,6 @@
+import innovate from '../src/assets/vc.svg'
+import scale from '../src/assets/scale.svg'
+
 export const Content = () => {
     return (
         <>
@@ -14,7 +17,7 @@ export const Content = () => {
                             <a href="">Learn More</a>
                         </div>
                         <div className="column2">
-                            <img src="./src/vc.svg" alt="" />
+                            <img src={innovate} alt="" />
                         </div>
                     </div>
                 </div>
@@ -24,7 +27,7 @@ export const Content = () => {
                 <div className="Content4">
                     <div className="row">
                         <div className="column1">
-                            <img src="./src/scale.svg" alt="" />
+                            <img src={scale} alt="" />
                         </div>
                         <div className="column3">
                             <h4>Scale apps with confidence</h4>
