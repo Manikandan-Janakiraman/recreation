@@ -1,10 +1,11 @@
+import aiReady from '../src/assets/ready.svg'
 export const MainBanner=()=>{
     return(
         <main>
        <div className="Content2">
                     <div className="row">
                         <div className="column1">
-                            <img src="./src/ready.svg" alt="" />
+                            <img src={aiReady} alt="" />
                         </div>
                         <div className="column3-c">
                             <h4>Artificial Intelligence Ready</h4>

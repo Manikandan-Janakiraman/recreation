@@ -1,3 +1,4 @@
+import aiData from '../src/assets/new.svg'
 export const Banner = () => {
     return (
         <banner>
@@ -14,7 +15,7 @@ export const Banner = () => {
                         </div>
                         <div className="column2">
                             <div className="row">
-                            <img src="./src/new.svg" alt="" />
+                            <img src={aiData} alt="" />
                             </div>
                         </div>
                     </div>

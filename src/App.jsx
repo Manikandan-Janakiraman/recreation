@@ -1,7 +1,7 @@
-import Footer from '../../frontend/src/Footer'
 import './App.css'
 import Banner from './Banner'
 import Content from './Content'
+import Footer from './Footer'
 import Header from './Header'
 import Hub from './Hub'
 import MainBanner from './MainBanner'
@@ -24,7 +24,7 @@ const App = () => {
 
       <Slider />
 
-      <Footer />
+    <Footer/>
 
     </>
   )

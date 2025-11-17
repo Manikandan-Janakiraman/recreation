@@ -1,3 +1,4 @@
+import dbLogo from '../src/assets/logo.svg'
 export const Header = () => {
     return (
 
@@ -20,7 +21,7 @@ export const Header = () => {
     <div className="navbar">
         <div className="container">
             <div className="nav">
-                <img src="./src/logo.svg" alt="" />
+                <img src={dbLogo} alt="" />
                 <a href="">Products</a>
                 <a href="">Resources</a>
                 <a href="">Solutions</a>
